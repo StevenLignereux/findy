@@ -19,6 +19,13 @@
 
 }
 
+body {
+
+    background: linear-gradient(#fff, #b34ef6);
+    min-height: 100vh;
+    
+}
+
 /* HEADER */
 h1 {
 
@@ -26,6 +33,24 @@ h1 {
     margin-left: 10px;
     font-family: "Bariol";
     clear: both;
+
+}
+
+h1 a {
+
+    text-decoration: none;
+
+}
+
+h1 a:visited {
+
+    color: black;
+
+}
+
+h1 a:hover {
+
+    color: plum;
 
 }
 
@@ -41,5 +66,23 @@ nav ul li {
     display: inline-block;
     margin-right: 10px;
     font-family: "BariolThin";
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+
+}
+
+nav ul li a:visited {
+
+    color: black;
+
+}
+
+nav ul li a:hover {
+
+    color: plum;
 
 }
