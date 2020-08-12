@@ -19,7 +19,7 @@ h1 {
 
     float: left;
     margin-left: 10px;
-    font-family: "Oswald";
+    font-family: "Bariol";
     clear: both;
 
 }
@@ -75,55 +75,24 @@ nav ul li a:hover {
 
 }
 
-/* MAIN */
-main {
+/* PLACES */
+.places {
 
     clear: both;
-    margin-left: 10px;
-    
-}
-
-h3 {
-
-    padding-top: 90px;
-    font-size: 60px;
+    margin-left: 420px;
     font-family: "Oswald";
-
+    padding-top: 30px;
 }
 
-/* SVG */
 svg {
 
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
 
 }
 
 .svg {
 
-    margin-left: 500px;
-    margin-top: -150px;
+    margin-left: 40px;
 
-}
-
-#skate {
-
-    animation-name: skate;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-
-}
-
-@keyframes skate {
-
-    from {
-
-        transform: rotateY(8deg);
-
-    } to {
-
-        transform: rotateY(25deg);
-        
-    }
 }
