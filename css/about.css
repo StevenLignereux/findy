@@ -1,0 +1,186 @@
+@font-face {
+
+    font-family: "Bariol";
+    src: url("fonts/bariolbold.ttf");
+
+}
+
+@font-face {
+
+    font-family: "BariolThin";
+    src: url("fonts/bariolthin1.ttf");
+
+}
+
+@font-face {
+
+    font-family: "Cooper";
+    src: url("fonts/cooperm.ttf");
+
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    background: linear-gradient(#fff, #b34ef6);
+    min-height: 100vh;
+
+}
+
+/* HEADER */
+h1 {
+
+    float: left;
+    margin-left: 10px;
+    font-family: "Bariol";
+    clear: both;
+
+}
+
+h1 a {
+
+    text-decoration: none;
+
+}
+
+h1 a:visited {
+
+    color: black;
+
+}
+
+h1 a:hover {
+
+    color: plum;
+
+}
+
+nav {
+
+    float: right;
+    margin-top: 10px;
+    
+}
+
+nav ul li {
+
+    display: inline-block;
+    margin-right: 10px;
+    font-family: "BariolThin";
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+
+}
+
+nav ul li a:visited {
+
+    color: black;
+
+}
+
+nav ul li a:hover {
+
+    color: plum;
+
+}
+
+/* ABOUT */
+.about {
+
+    clear: both;
+    padding-top: 100px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Cooper";
+
+}
+
+
+/* SVG */
+svg {
+
+    width: 50%;
+    height: 50%;
+
+}
+
+.svg {
+
+    margin-left: 40px;
+
+}
+
+#heart {
+
+    animation-name: heart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+
+@keyframes heart {
+
+    from {
+        transform: translate(0);
+    } to {
+        transform: translateY(-100px);
+    }
+}
+
+#firework {
+
+    animation-name: fire;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes fire {
+
+    from {
+
+        transform: rotateZ(0deg);
+
+    } to {
+
+        transform: rotateZ(360deg);
+
+    }
+}
+
+#wood {
+
+    animation-name: wood;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes wood {
+
+    from {
+
+        transform: scaleX(0);
+
+    } to {
+
+        transform: scaleX(100px);
+    }
+
+
+}
